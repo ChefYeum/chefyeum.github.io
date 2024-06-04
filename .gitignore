@@ -1,0 +1,18 @@
+node_modules/
+.cache/
+public
+src/gatsby-types.d.ts
+
+# Encryption key for Web Crypto API
+.key
+
+.env
+*.encrypted
+
+
+*.wasm
+*.wasm.o
+
+*.dt.metadata
+
+.keydata.yaml
