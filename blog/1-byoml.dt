@@ -1,0 +1,25 @@
+Unnamed Markup Language
+
+/ Syntax Philosophy
+Way to express your thought as fast as possible
+Minimal key stroke to make sections e.g. `#` is more expensive than `/`
+
+/ Syntax
+// Sectioning
+Headings are expressed with slash characters
+
+// Comment Syntax
+Expressed with tilda
+Any things that you want to include in the source code but do not wish to be rendered in the final code
+
+// Metadata
+First line is the title
+Any more metadata to add?
+
+/ Style
+Senence per line
+Encourages dropping the subject
+
+/ Security
+Metadata remains unencrypted
+TODO: Elaborate on encryption
