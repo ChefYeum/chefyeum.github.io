@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkchefyeum_github_io=self.webpackChunkchefyeum_github_io||[]).push([[218],{2513:function(e,t,n){n.r(t),n.d(t,{Head:function(){return h}});var s=n(6068),u=n(917);var i={name:"61hfej",styles:"font-size:1.35em"};t.default=()=>(0,u.tZ)(s.Z,null,(0,u.tZ)("div",{css:i},"This page does not exist (or perhaps in development hehe)"));const h=()=>(0,u.tZ)("title",null,"Not found")}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-445965ea217823b0ecaf.js.map

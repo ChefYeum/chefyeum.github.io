@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkchefyeum_github_io=self.webpackChunkchefyeum_github_io||[]).push([[753],{728:function(e,t,u){u.r(t),u.d(t,{Head:function(){return r}});var l=u(6068),i=u(4096),a=u(917);var n={name:"1qtbpfp",styles:"@media (max-width: 900px){grid-template-columns:1fr;}display:grid;grid-template-columns:3.4fr 1.6fr;grid-template-rows:2fr;gap:1.5em"};t.default=e=>(0,a.tZ)(l.Z,null,(0,a.tZ)("main",{css:n},(0,a.tZ)(i.Z,null)));const r=()=>(0,a.tZ)("title",null,"ChefYeum - Resume")}}]);
+//# sourceMappingURL=component---src-pages-resume-tsx-5502ca796068a30cad60.js.map

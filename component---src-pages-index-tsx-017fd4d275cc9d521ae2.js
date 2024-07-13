@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkchefyeum_github_io=self.webpackChunkchefyeum_github_io||[]).push([[691],{7200:function(e,t,n){n.r(t),n.d(t,{Head:function(){return i}});var u=n(6068),a=n(917);var l={name:"2qga7i",styles:"text-align:right"};t.default=e=>(0,a.tZ)(u.Z,null,(0,a.tZ)("main",{css:l},(0,a.tZ)("div",{dangerouslySetInnerHTML:{__html:e.data.markdownRemark.html}})));const i=()=>(0,a.tZ)("title",null,"ChefYeum - Welcome")}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-017fd4d275cc9d521ae2.js.map
