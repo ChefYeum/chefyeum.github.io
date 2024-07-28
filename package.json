@@ -12,7 +12,7 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "encrypt": "chefyeum-contents",
-    "deploy": "gatsby build && chefyeum-contents && gh-pages -d public -b static",
+    "deploy": "gatsby clean && chefyeum-contents && gatsby build && gh-pages -d public -b static",
     "live-url": "echo https://chefyeum.github.io/blog/?iv=$(yq -r .init_vector .keydata.yaml)"
   },
   "engines": {
