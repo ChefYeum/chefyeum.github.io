@@ -4,15 +4,10 @@ import react, { useState } from 'react';
 function useFetchDecrypt(iv: number[] | undefined, keyData: string | undefined) {
   const [blogList, setBlogList] = useState<string[] | undefined>(undefined)
 
-  function isString(x: string | undefined): x is string {
-    return (x as string) !== undefined;
-  }
-
   function retrieveBlogList(encryptedSrcUrls: string[]): void {
     if (iv === undefined) return;
-    Promise.all(encryptedSrcUrls.map(url =>
-      fetch(url)
-        .then(async response => {
+    Promise.all(encryptedSrcUrls.map(async url => {
+      let response = await fetch(url)
           try {
             let key = await crypto.subtle.importKey(
               "jwk",
@@ -39,10 +34,15 @@ function useFetchDecrypt(iv: number[] | undefined, keyData: string | undefined) 
 
             return new TextDecoder().decode(decrypted);
           } catch (e) {
-            console.error(e);
+            // Do nothing - things will fail (by design)
           }
-        })
-    )).then(xs => setBlogList(xs.filter(isString)))
+    })).then(xs => {
+      const validPosts = xs.filter(x => x !== undefined)
+      if (validPosts.length != 1) {
+        console.error(`Decrypted ${validPosts.length} out of ${xs.length}.`)
+      }
+      setBlogList(validPosts)
+    })
   }
   return { blogList, retrieveBlogList };
 }
