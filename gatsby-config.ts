@@ -50,6 +50,14 @@ const config: GatsbyConfig = {
       __key: "pages"
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "blogs",
+        "path": "./blogs/"
+      },
+      __key: "blogs"
+    },
+    {
       resolve: `gatsby-plugin-web-font-loader`,
       options : {
         google: {
