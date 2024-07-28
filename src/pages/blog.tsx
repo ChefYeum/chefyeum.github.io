@@ -20,9 +20,7 @@ export const query = graphql`
 `
 
 function compile(s: string): string {
-  return `<pre>
-  ${s}
-  </pre>`
+  return `<pre>${s}</pre>`
 }
 
 
