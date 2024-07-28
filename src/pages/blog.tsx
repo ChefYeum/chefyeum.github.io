@@ -51,7 +51,10 @@ const BlogPage = ({ data, location }: BlogPageProps) => {
                 if (e.key === 'Enter') {
                   e.preventDefault();
                   let blogUrls = data.allFile.edges.map((edge) => edge.node.publicURL)
-                  retrieveBlogList(blogUrls)
+                  if (blogUrls.length != 0)
+                    retrieveBlogList(blogUrls)
+                  else
+                    console.error("No blog urls found.")
                 }
               }}
             />
