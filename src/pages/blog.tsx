@@ -13,9 +13,6 @@ export const query = graphql`
         }
       }
     }
-    file(extension: {eq: "metadata"}) {
-      publicURL
-    }
   }
 `
 
