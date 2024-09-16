@@ -1,5 +1,5 @@
 import React from "react"
-import { HeadFC, graphql } from "gatsby"
+import { HeadFC } from "gatsby"
 import Template from "../Template"
 
 import ResumeContent from "../components/Resume/ResumeContent"
@@ -12,9 +12,9 @@ const ResumePage = (res: {data: {markdownRemark: {html: string}}}) => (
         gridTemplateColumns: '1fr'
       },
       display: 'grid',
-      gridTemplateColumns: '3.4fr 1.6fr',
+      gridTemplateColumns: '3.85fr 1.15fr',
       gridTemplateRows: '2fr',
-      gap: '1.5em'
+      gap: '1.2em'
     }}>
       {/* <div dangerouslySetInnerHTML={{ __html: res.data.markdownRemark.html }} /> */}
       <ResumeContent />
@@ -22,14 +22,6 @@ const ResumePage = (res: {data: {markdownRemark: {html: string}}}) => (
   </Template>
 )
 
-// export const pageQuery = graphql`
-//   query {
-//     markdownRemark(frontmatter: {name: {eq: "resume"}}) {
-//       html
-//     }
-//   }
-// `
-
 export default ResumePage 
 
-export const Head: HeadFC = () => <title>ChefYeum - Resume</title>
+export const Head: HeadFC = () => <title>ChefYeum - Curriculum Vitae</title>

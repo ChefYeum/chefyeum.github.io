@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 
 import TextLink from './TextLink'
 import { SubSubSection } from './SubSubSection'
-import { BadgeName } from './Badge'
 
 const SubSectionWrapper = styled.div({
   paddingBottom: '0.5em',
@@ -16,7 +15,7 @@ export const RightAlign = styled.div({
 
 export const SubSection = (params: {
   boldTitle?: string, title: string, title2?: string,
-  leftSub?: string, rightSub?: string | BadgeName[],
+  leftSub?: string, rightSub?: string | string[],
   children?: React.ReactNode, href?: string }) => {
   const { title, boldTitle, title2,
           leftSub, rightSub, href,
@@ -31,7 +30,7 @@ export const SubSection = (params: {
           {title2}
         </h2>
       </TextLink>
-      <SubSubSection leftSub={leftSub ?? ""} rightSub={rightSub ?? ""}>
+      <SubSubSection leftSub={leftSub ?? ""} rightSub={rightSub ?? ""} noBadge={true}>
         {children}
       </SubSubSection>
     </SubSectionWrapper >

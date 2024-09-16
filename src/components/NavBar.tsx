@@ -33,7 +33,7 @@ const ResponsitveFlexboxButOk = styled.ul`
 const NavBar = () => (
   <ResponsitveFlexboxButOk>
     <NavButton buttonText='Home'   buttonLink='/'/>
-    <NavButton buttonText='Résumé' buttonLink={`/resume`}/>
+    <NavButton buttonText='Curriculum Vitae' buttonLink={`/cv`}/>
     <NavButton buttonText='Blog' buttonLink={`/blog`}/>
   </ResponsitveFlexboxButOk>
 )
