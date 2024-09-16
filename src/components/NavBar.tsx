@@ -18,7 +18,7 @@ const NavButton = ({buttonText, buttonLink}: {buttonText: string, buttonLink: st
   </Link>
 )
 
-const ResponsitveFlexboxButOk = styled.ul`
+const ResponsiveFlexboxButOk = styled.ul`
   display: flex;
   list-style: none;
   padding-inline-start: 0em;
@@ -31,11 +31,11 @@ const ResponsitveFlexboxButOk = styled.ul`
 `
 
 const NavBar = () => (
-  <ResponsitveFlexboxButOk>
+  <ResponsiveFlexboxButOk>
     <NavButton buttonText='Home'   buttonLink='/'/>
     <NavButton buttonText='Curriculum Vitae' buttonLink={`/cv`}/>
     <NavButton buttonText='Blog' buttonLink={`/blog`}/>
-  </ResponsitveFlexboxButOk>
+  </ResponsiveFlexboxButOk>
 )
 
 export default NavBar

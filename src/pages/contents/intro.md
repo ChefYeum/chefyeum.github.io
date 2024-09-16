@@ -4,7 +4,7 @@ name: "intro"
 
 Dee Yeum, also known as *ChefYeum*. Originally born in Seoul 🇰🇷. Grew up in Edinburgh 🇬🇧.
 
-I work as a Quantiative Developer at Queueco, a high-frequency trading company in London 🇬🇧. See [CV](https://chefyeum.github.io/cv) for details.
+I work as a Quantitative Developer at Queueco, a high-frequency trading company in London 🇬🇧. See [CV](https://chefyeum.github.io/cv) for details.
 
 Informatics graduate from the University of Edinburgh where I also work as a researcher and a teaching assistant.
 

@@ -12,7 +12,7 @@ const ResumePage = (res: {data: {markdownRemark: {html: string}}}) => (
         gridTemplateColumns: '1fr'
       },
       display: 'grid',
-      gridTemplateColumns: '3.85fr 1.15fr',
+      gridTemplateColumns: '3.4fr 1.6fr',
       gridTemplateRows: '2fr',
       gap: '1.2em'
     }}>

@@ -16,8 +16,8 @@ const ResumeContent = () => (
             <li> Produced JMH benchmarks to measure JVM microperformance to determine the style of Java class abstractions for the team.</li>
             <li> Provided high performance connectivity in Java to 30+ exchanges with proprietary HTTP/WebSocket clients and parser. </li>
             <li> Solely built and maintained a trading engine management console in {<Badge name='Next.JS' />}, {<Badge name='React' />}, and {<Badge name='TailwindCSS' />} collaborating with traders to deliver PnL-enhancing features.</li>
-            (benchmark performance metrics are not publicly desclosed for this role)
-            {/* , <u>allowing researchers and traders to manange hundreds of engines in a centralised system and UI.</u></li> */}
+            (benchmark performance metrics are not publicly disclosed for this role)
+            {/* , <u>allowing researchers and traders to manage hundreds of engines in a centralised system and UI.</u></li> */}
             {/* <li> Adopted a responsive design with {<Badge name='TailwindCSS' />} <u>allowing the traders to control trading engines on mobile devices remotely.</u></li> */}
             {/* <li> End-to-end and component testing using {<Badge name='cypress' />} and its CI/CD integration on {<Badge name='jenkins' />}. </li> */}
           </SubSubSection>
@@ -36,7 +36,7 @@ const ResumeContent = () => (
         </SubSection>
         <SubSection title="Functional Programming Teaching Assistant" leftSub="University of Edinburgh" rightSub="Sep 2019 - June 2023">
           <li> Received <u>£20k+ grant over 3 academic years</u> to develop a property-based testing software in a custom DSL written in {<Badge name='Haskell' />}. </li>
-          <li> Deployed a web platform for markers to grade assignments and provide feedback to 500+ students per term, autmating the human marking time and cost of the teaching team. </li>
+          <li> Deployed a web platform for markers to grade assignments and provide feedback to 500+ students per term, automating the human marking time and cost of the teaching team. </li>
           <li> Taught weekly tutorial for over 60 students, introducing logic and various computational models. 20+ hours per week contract while keeping up with full time study. </li>
           {/* <li> Also serving as a marker for formal assessments </li> */}
           <li> Nominated for <u>Edinburgh University Student Association Teaching Award</u> two years in a row.</li>
@@ -48,7 +48,7 @@ const ResumeContent = () => (
           </li>
           <li> {<Badge name='WebAssembly' />} compiler with a significant performance boost. </li>
           <li>
-            Produce benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}.
+            Produced benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}.
             {/* <TextLink href="http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf">
               Unbounded Spigot Algorithms
             </TextLink>. */}
@@ -57,7 +57,7 @@ const ResumeContent = () => (
       </Section>
       <Section title="Education">
         <SubSection title="BSc Cognitive Science (Informatics)" leftSub="University of Edinburgh" rightSub="2018-21 & 2022-23">
-          Acheived <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app in {<Badge name='React' />} and {<Badge name='TypeScript' />} to visualised and verify mathematical properties using Z3 theorem prover and {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />}.
+          Achieved <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app in {<Badge name='React' />} and {<Badge name='TypeScript' />} to visualised and verify mathematical properties using Z3 theorem prover and {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />}.
 
           <VeryLastSection title="Relevant Courses">
             <div>
