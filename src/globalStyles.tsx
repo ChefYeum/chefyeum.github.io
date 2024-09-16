@@ -29,7 +29,7 @@ export const globalStyles = css({
     color: '#837569',
     textTransform: 'uppercase',
     letterSpacing: '5px',
-    marginTop: '1em',
+    marginTop: '.66em',
     marginBottom: '.33em',
   },
   h2: {
