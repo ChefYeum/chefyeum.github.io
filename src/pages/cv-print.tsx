@@ -11,8 +11,13 @@ export default () => (
     <PageTitle>
       <LambdaLogo size='0.8em' print />
       Dee Yeum
-    </PageTitle>
-    <ResumeLogoBar />
+    </PageTitle> 
+    <ResumeLogoBar /> 
+
+    <div css={{marginTop: '.3em'}}>
+      Software engineering generalist with 2 years' experience in finance and an academic background in Programming Language. Currently interested in Rust, DSL design, cryptocurrency trading, DeFi, and WebAssembly.
+    </div>
+
     <div css={{
       '@pages': {
         margin: '6mm 10mm 6mm 10mm'
