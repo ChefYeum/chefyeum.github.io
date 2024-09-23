@@ -57,7 +57,7 @@ const ResumeContent = () => (
       </Section>
       <Section title="Education">
         <SubSection title="BSc Cognitive Science (Informatics)" leftSub="University of Edinburgh" rightSub="2018-21 & 2022-23">
-          Achieved <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app in {<Badge name='React' />} and {<Badge name='TypeScript' />} to visualised and verify mathematical properties using Z3 theorem prover and {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />}.
+          Achieved <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app to visualise and verify properties of a category in {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />} on a {<Badge name='React'/>} web app. This was then cross verified via <TextLink href="https://github.com/Z3Prover/z3">Z3 Theorem Prover</TextLink> by Microsoft
 
           <VeryLastSection title="Relevant Courses">
             <div>
@@ -106,11 +106,11 @@ const ResumeContent = () => (
       }}>
         <SubSection title="Personal Website">
           Personal website with CV and blog. Powered by {<Badge name='Gatsby' />} with {<Badge name='React' />} and {<Badge name='GraphQL' />}.
-          Custom markdown parser written in {<Badge name='Rust' />} and {<Badge name='WebAssembly' />}.
+          Supports a custom markup language written in {<Badge name='Rust' />} which is compiled on the client-side by {<Badge name='WebAssembly' />}.
         </SubSection>
         <SubSection
           title="Holdem69"
-          href="http://chefyeum.github.io/holdem69/demo"
+          href="https://holdem69.herokuapp.com/"
         >
           Sign-up, payment, and stats for the weekly home tournament that I organise among the students. Built with {<Badge name='React' />}, {<Badge name='TailwindCSS' />}, {<Badge name='Go' />}, and {<Badge name='PostgreSQL' />}.
         </SubSection>
