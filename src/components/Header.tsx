@@ -26,7 +26,7 @@ const Header = () => (
   }}>
     <div>
       <LambdaLogo size='1.2rem' />
-      <PageSubtitle> Computer Science, Philosophy, and Culinary Arts </PageSubtitle>
+      <PageSubtitle> Computer Science, Philosophy, and Cooking </PageSubtitle>
       <PageTitle> Dee Yeum </PageTitle>
       <LinkBar />
       <NavBar />
