@@ -13,10 +13,9 @@ const ResumeContent = () => (
         <SubSection title="Quantitative Developer">
           <SubSubSection leftSub="Queueco" rightSub="Summer 2022 & July 2023 - Ongoing">
             <li> Developed a high-frequency trading engine for cryptocurrency market making in <Badge name='Java' /></li>
-            <li> Produced JMH benchmarks to measure JVM microperformance to determine the style of Java class abstractions for the team.</li>
-            <li> Provided high performance connectivity in Java to 30+ exchanges with proprietary HTTP/WebSocket clients and parser. </li>
             <li> Solely built and maintained a trading engine management console in {<Badge name='Next.JS' />}, {<Badge name='React' />}, and {<Badge name='TailwindCSS' />} collaborating with traders to deliver PnL-enhancing features.</li>
-            (benchmark performance metrics are not publicly disclosed for this role)
+            <li> Provided high performance connectivity in Java to 30+ exchanges with proprietary HTTP/WebSocket clients and parser. </li>
+            <li> Integrated binary-encoded market data to deliver a low latency trading engine in a colocated trading machine</li>
             {/* , <u>allowing researchers and traders to manage hundreds of engines in a centralised system and UI.</u></li> */}
             {/* <li> Adopted a responsive design with {<Badge name='TailwindCSS' />} <u>allowing the traders to control trading engines on mobile devices remotely.</u></li> */}
             {/* <li> End-to-end and component testing using {<Badge name='cypress' />} and its CI/CD integration on {<Badge name='jenkins' />}. </li> */}
