@@ -12,8 +12,12 @@ const ResumeContent = () => (
       <Section title="Experience">
         <SubSection title="Full-stack Software Engineer">
           <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
-            <li>Built a crypto conversion feature end-to-end, spanning a React/TypeScript frontend and an async Rust backend.</li>
-            <li>Implemented real-time RFQ trading for users in Async Rust with integrations to multiple CEX and DEX APIs.</li>
+            <li>
+              Built a crypto conversion feature end-to-end, spanning a {<Badge name='React' />} in {<Badge name='TypeScript' />} frontend and an async {<Badge name='Rust' />} backend.
+            </li>
+            <li>
+              Implemented real-time RFQ trading for users in async {<Badge name='Rust' />} with integrations to multiple CEX and DEX APIs via WebSocket and REST.
+            </li>
           </SubSubSection>
         </SubSection>
         <SubSection title="Quantitative Developer">
@@ -31,7 +35,7 @@ const ResumeContent = () => (
           <SubSubSection leftSub="Viapontica AI" rightSub="Summer 2020">
             <li> Worked with the UK Government to develop software to recognise incidents in public. </li>
             {/* <li> Designed and deployed scalable and optimised {<Badge name='Flask' />} server in {<Badge name='Python' />} on {<Badge name='AWS' />}.</li> */}
-            <li> Designed and deployed a scalable {<Badge name='Flask' />} server in {<Badge name='Python'/>} on {<Badge name='AWS' />}, utilising caching and compound indexing to <u>reduce end-to-end latency benchmark latency by 32-72%.</u></li>
+            <li> Designed and deployed a scalable {<Badge name='Flask' />} server in {<Badge name='Python' />} on {<Badge name='AWS' />}, utilising caching and compound indexing to <u>reduce end-to-end latency benchmark latency by 32-72%.</u></li>
             {/* <li> Implemented <u>all endpoints to guarantee a <a style={{ fontStyle: 'italic' }}>O(n)</a> running time</u> while also considering the scalability. </li> */}
           </SubSubSection>
           <SubSubSection leftSub="SymbaSync Ltd" rightSub="Summer 2019">
@@ -50,8 +54,8 @@ const ResumeContent = () => (
           </li>
           {/* <li> {<Badge name='WebAssembly' />} compiler with a significant performance boost. </li> */}
           {/* <li> */}
-            {/* Produced benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}. */}
-            {/* <TextLink href="http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf">
+          {/* Produced benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}. */}
+          {/* <TextLink href="http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf">
               Unbounded Spigot Algorithms
             </TextLink>. */}
           {/* </li> */}
@@ -59,7 +63,7 @@ const ResumeContent = () => (
       </Section>
       <Section title="Education">
         <SubSection title="BSc Cognitive Science (Informatics)" leftSub="University of Edinburgh" rightSub="2018-21 & 2022-23">
-          Achieved <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app to visualise and verify properties of a category in {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />} on a {<Badge name='React'/>} web app. This was then cross verified via <TextLink href="https://github.com/Z3Prover/z3">Z3 Theorem Prover</TextLink> by Microsoft
+          Achieved <em>first-class</em> with dissertation on <TextLink href="https://github.com/chefyeum/honours" emph>Software Tool to Analyse Finite Monoid in Category Theory</TextLink>, where I built an app to visualise and verify properties of a category in {<Badge name='Rust' />} targeting {<Badge name='WebAssembly' />} on a {<Badge name='React' />} web app. This was then cross verified via <TextLink href="https://github.com/Z3Prover/z3">Z3 Theorem Prover</TextLink> by Microsoft
 
           <VeryLastSection title="Relevant Courses">
             <div>
@@ -103,79 +107,79 @@ const ResumeContent = () => (
     </div>
     <div>
       <Section title="Projects/Awards">
-      <div css={{
-        fontSize: '90%'
-      }}>
-        <SubSection title="Personal Website">
-          Personal website with CV and blog. Powered by {<Badge name='Gatsby' />} with {<Badge name='React' />} and {<Badge name='GraphQL' />}.
-          Supports a custom markup language written in {<Badge name='Rust' />} which is compiled on the client-side by {<Badge name='WebAssembly' />}.
-        </SubSection>
-        <SubSection
-          title="Holdem69"
-          href="https://holdem69.herokuapp.com/"
-        >
-          Sign-up, payment, and stats for the weekly home tournament that I organise among the students. Built with {<Badge name='React' />}, {<Badge name='TailwindCSS' />}, {<Badge name='Go' />}, and {<Badge name='PostgreSQL' />}.
-        </SubSection>
-        <SubSection
-          title="Hack for Ukraine - 1st"
-          title2="Best Infrastructure - 1st"
-          // leftSub="Oxford Hack 2022" rightSub="Oxford, UK"
-          leftSub="Oxford Hack 2022" rightSub={['React', 'TailwindCSS']}
-          href="https://github.com/chefyeum/oxford-hack">
-        </SubSection>
-        <SubSection
-          title="Twilio Prize - 1st"
-          title2="Marks & Spencer Prize - 2nd"
-          leftSub="Hack the Burgh VII" rightSub={['Next.JS', 'TailwindCSS']}
-          href="https://github.com/v-raja/htb-8">
-        </SubSection>
-        <SubSection title="Overall Prize - 1st"
-          leftSub="StacsHack 2020" rightSub={['Flutter', 'Dart']}
-          href="https://github.com/lollobaldo/stacs-hack-2020">
-          {/* Auto-recycling trash can designed to work with a crowdsourcing mobile application.
+        <div css={{
+          fontSize: '90%'
+        }}>
+          <SubSection title="Personal Website">
+            Personal website with CV and blog. Powered by {<Badge name='Gatsby' />} with {<Badge name='React' />} and {<Badge name='GraphQL' />}.
+            Supports a custom markup language written in {<Badge name='Rust' />} which is compiled on the client-side by {<Badge name='WebAssembly' />}.
+          </SubSection>
+          <SubSection
+            title="Holdem69"
+            href="https://holdem69.herokuapp.com/"
+          >
+            Sign-up, payment, and stats for the weekly home tournament that I organise among the students. Built with {<Badge name='React' />}, {<Badge name='TailwindCSS' />}, {<Badge name='Go' />}, and {<Badge name='PostgreSQL' />}.
+          </SubSection>
+          <SubSection
+            title="Hack for Ukraine - 1st"
+            title2="Best Infrastructure - 1st"
+            // leftSub="Oxford Hack 2022" rightSub="Oxford, UK"
+            leftSub="Oxford Hack 2022" rightSub={['React', 'TailwindCSS']}
+            href="https://github.com/chefyeum/oxford-hack">
+          </SubSection>
+          <SubSection
+            title="Twilio Prize - 1st"
+            title2="Marks & Spencer Prize - 2nd"
+            leftSub="Hack the Burgh VII" rightSub={['Next.JS', 'TailwindCSS']}
+            href="https://github.com/v-raja/htb-8">
+          </SubSection>
+          <SubSection title="Overall Prize - 1st"
+            leftSub="StacsHack 2020" rightSub={['Flutter', 'Dart']}
+            href="https://github.com/lollobaldo/stacs-hack-2020">
+            {/* Auto-recycling trash can designed to work with a crowdsourcing mobile application.
           Particularly responsible for the app development using <em>Flutter</em> in <em>Dart</em>. */}
-        </SubSection>
-        <SubSection title="SkyScanner Prize - 2nd"
-          leftSub="Hack the Burgh VI" rightSub={['React', 'Node']}
-          href="https://github.com/lollobaldo/kitofly" >
-          {/* Web app to suggest holiday destinations while minimizing the carbon emission.
+          </SubSection>
+          <SubSection title="SkyScanner Prize - 2nd"
+            leftSub="Hack the Burgh VI" rightSub={['React', 'Node']}
+            href="https://github.com/lollobaldo/kitofly" >
+            {/* Web app to suggest holiday destinations while minimizing the carbon emission.
           Worked with <em>React</em> frontend and integrating Skyscanner API for the <em>Node</em> server. */}
-        </SubSection>
-        <SubSection title="Wharton School Prize - 2nd"
-          leftSub="PennApps XX" rightSub={['Java', 'Android', 'Firebase']}
-          href="https://github.com/ChefYeum/safe">
-          {/* Crowdsourcing Android app to notify active terrorism in emergency.
+          </SubSection>
+          <SubSection title="Wharton School Prize - 2nd"
+            leftSub="PennApps XX" rightSub={['Java', 'Android', 'Firebase']}
+            href="https://github.com/ChefYeum/safe">
+            {/* Crowdsourcing Android app to notify active terrorism in emergency.
           Worked on deploying the backend server on <em>Google Firebase</em> and dealing with external APIs from MapBox to display the map and Twilio to send emergency text. */}
-        </SubSection>
-        <SubSection title="Code Golf Challenge - 1st"
-          leftSub="Hack the Burgh V" rightSub={['Haskell']}
-          href="https://github.com/ChefYeum/TypeRacer/tree/master/CodeGolfChallenge">
-          {/* Winner of <TextLink href=""> Code Golf Challenge </TextLink> in <em>Haskell</em>. */}
-        </SubSection>
-        <SubSection title="JPMorgan Prize - 1st"
-          leftSub="StacsHack 2019" rightSub={['Node', 'Google Cloud']}
-          href="https://github.com/DMeechan/git-commit-hackathon" >
-          {/* Web app to calculate feedback rating from verbal recording of the user to avoid human-bias.
+          </SubSection>
+          <SubSection title="Code Golf Challenge - 1st"
+            leftSub="Hack the Burgh V" rightSub={['Haskell']}
+            href="https://github.com/ChefYeum/TypeRacer/tree/master/CodeGolfChallenge">
+            {/* Winner of <TextLink href=""> Code Golf Challenge </TextLink> in <em>Haskell</em>. */}
+          </SubSection>
+          <SubSection title="JPMorgan Prize - 1st"
+            leftSub="StacsHack 2019" rightSub={['Node', 'Google Cloud']}
+            href="https://github.com/DMeechan/git-commit-hackathon" >
+            {/* Web app to calculate feedback rating from verbal recording of the user to avoid human-bias.
           Mainly worked on integrating <em>IBM Watson</em> and <em>Google Cloud</em> with <em>Node</em> backend. */}
-        </SubSection>
-        <SubSection title="Other hackathons">
-          Invited with a travel grant, 3rd prize or below.
-          <li>Hello World Hack 2020, Edinburgh.</li>
-          <li>ICHack 2019, Imperial College London.</li>
-          <li>Junction 2020, Aalto University, Finland.</li>
-          <li>Facebook Hack 2020, Facebook London.</li>
-          <li>Digital Education Hack, Edinburgh.</li>
-          <li>Hack Cambridge 2020, Cambridge.</li>
-        </SubSection>
-        <SubSection title="Open-source contribution">
-          Documentation PRs in: Hspec, GatsbyJS, Google OR-Tools, Firebase, PLFA, jsprit and more.
-        </SubSection>
-        <SubSection title="Other awards">
-          <li> Saltire Golden Award by the Scottish Government (2015-17) for 220 hours volunteering. Taught imperative programming in several schools under Edinburgh Council. </li>
-          <li> 12 Kyu certified in Go by Korea Baduk Association. </li>
-          <li> 2 years winner of the Natural Language Processing Challenge hosted by G-Research. </li>
-        </SubSection>
-      </div>
+          </SubSection>
+          <SubSection title="Other hackathons">
+            Invited with a travel grant, 3rd prize or below.
+            <li>Hello World Hack 2020, Edinburgh.</li>
+            <li>ICHack 2019, Imperial College London.</li>
+            <li>Junction 2020, Aalto University, Finland.</li>
+            <li>Facebook Hack 2020, Facebook London.</li>
+            <li>Digital Education Hack, Edinburgh.</li>
+            <li>Hack Cambridge 2020, Cambridge.</li>
+          </SubSection>
+          <SubSection title="Open-source contribution">
+            Documentation PRs in: Hspec, GatsbyJS, Google OR-Tools, Firebase, PLFA, jsprit and more.
+          </SubSection>
+          <SubSection title="Other awards">
+            <li> Saltire Golden Award by the Scottish Government (2015-17) for 220 hours volunteering. Taught imperative programming in several schools under Edinburgh Council. </li>
+            <li> 12 Kyu certified in Go by Korea Baduk Association. </li>
+            <li> 2 years winner of the Natural Language Processing Challenge hosted by G-Research. </li>
+          </SubSection>
+        </div>
       </Section>
     </div>
   </>
