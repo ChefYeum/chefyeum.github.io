@@ -10,7 +10,7 @@ const ResumeContent = () => (
   <>
     <div>
       <Section title="Experience">
-<SubSection title="Full-stack Software Engineer">
+        <SubSection title="Full-stack Software Engineer">
           <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
             <li>Built a crypto conversion feature end-to-end, spanning a React/TypeScript frontend and an async Rust backend.</li>
             <li>Implemented real-time RFQ trading for users in Async Rust with integrations to multiple CEX and DEX APIs.</li>
@@ -39,25 +39,22 @@ const ResumeContent = () => (
             <li> Integrated SAP HR Platform to deliver a pilot to new clients to large banks.</li>
           </SubSubSection>
         </SubSection>
-        <SubSection title="Functional Programming Teaching Assistant" leftSub="University of Edinburgh" rightSub="Sep 2019 - June 2023">
-          <li> Received <u>£20k+ grant over 3 academic years</u> to develop a property-based testing software in a custom DSL written in {<Badge name='Haskell' />}. </li>
+        <SubSection title="Functional Programming Teaching & Research Assistant" leftSub="University of Edinburgh" rightSub="Sep 2019 - June 2023">
+          <li> Received <u>£20k+ grant over 3 academic years</u> to develop a property-based testing software in a custom DSL written in {<Badge name='Haskell' />}.</li>
           <li> Deployed a web platform for markers to grade assignments and provide feedback to 500+ students per term, automating the human marking time and cost of the teaching team. </li>
           <li> Taught weekly tutorial for over 60 students, introducing logic and various computational models. 20+ hours per week contract while keeping up with full time study. </li>
-          {/* <li> Also serving as a marker for formal assessments </li> */}
           <li> Nominated for <u>Edinburgh University Student Association Teaching Award</u> two years in a row.</li>
-        </SubSection>
-        <SubSection title="Programming Language Research Assistant" leftSub="University of Edinburgh" rightSub="Summer 2021">
           <li>
             Worked on the client-side runtime of <em>Links</em>, a functional language for web programming written in {<Badge name='OCaml' />}.
             Jointly funded by <TextLink href="https://web.inf.ed.ac.uk/lfcs">LFCS</TextLink> and <TextLink href="https://www.ukri.org/">UKRI</TextLink>.
           </li>
-          <li> {<Badge name='WebAssembly' />} compiler with a significant performance boost. </li>
-          <li>
-            Produced benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}.
+          {/* <li> {<Badge name='WebAssembly' />} compiler with a significant performance boost. </li> */}
+          {/* <li> */}
+            {/* Produced benchmarks based on various mathematical models to test the performance of the language runtimes and its CI/CD integrations on {<Badge name='GitHub Actions' />}. */}
             {/* <TextLink href="http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf">
               Unbounded Spigot Algorithms
             </TextLink>. */}
-          </li>
+          {/* </li> */}
         </SubSection>
       </Section>
       <Section title="Education">
