@@ -10,8 +10,14 @@ const ResumeContent = () => (
   <>
     <div>
       <Section title="Experience">
+<SubSection title="Full-stack Software Engineer">
+          <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
+            <li>Built a crypto conversion feature end-to-end, spanning a React/TypeScript frontend and an async Rust backend.</li>
+            <li>Implemented real-time RFQ trading for users in Async Rust with integrations to multiple CEX and DEX APIs.</li>
+          </SubSubSection>
+        </SubSection>
         <SubSection title="Quantitative Developer">
-          <SubSubSection leftSub="Queueco" rightSub="Summer 2022 & July 2023 - Ongoing">
+          <SubSubSection leftSub="Queueco" rightSub="Summer 2022 & July 2023 - Dec 2024">
             <li> Developed a high-frequency trading engine for cryptocurrency market making in <Badge name='Java' /></li>
             <li> Solely built and maintained a trading engine management console in {<Badge name='Next.JS' />}, {<Badge name='React' />}, and {<Badge name='TailwindCSS' />} collaborating with traders to deliver PnL-enhancing features.</li>
             <li> Provided high performance connectivity in Java to 30+ exchanges with proprietary HTTP/WebSocket clients and parser. </li>
