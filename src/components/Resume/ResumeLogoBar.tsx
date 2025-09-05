@@ -28,10 +28,10 @@ const ResumeLogoBar = () => (
     <LogoLink logo="https://akveo.github.io/eva-icons/outline/svg/phone-outline.svg"
       link="tel:+447475232777"
       label="+44 7475 232777" />
-    <LogoLink logo="https://simpleicons.org/icons/github.svg"
+    <LogoLink logo="https://akveo.github.io/eva-icons/outline/svg/github-outline.svg"
       link="https://github.com/chefyeum"
       label="GitHub.com/ChefYeum" />
-    <LogoLink logo="https://simpleicons.org/icons/linkedin.svg"
+    <LogoLink logo="https://akveo.github.io/eva-icons/outline/svg/linkedin-outline.svg"
       link="https://linkedin.com/in/chefyeum"
       label="Linkedin.com/in/ChefYeum" />
     <LogoLink logo="https://akveo.github.io/eva-icons/outline/svg/email-outline.svg"
