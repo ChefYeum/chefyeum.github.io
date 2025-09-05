@@ -13,7 +13,7 @@ const ResumeContent = () => (
         <SubSection title="Full-stack Software Engineer">
           <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
             <li>
-              Built a crypto conversion feature end-to-end, spanning a {<Badge name='React' />} in {<Badge name='TypeScript' />} frontend and an async {<Badge name='Rust' />} backend.
+              Built a crypto conversion feature end-to-end, spanning a {<Badge name='React' />} in {<Badge name='TypeScript' />} frontend and an async {<Badge name='Rust' />} backend, with {<Badge name='PostgreSQL' />} and {<Badge name='Redis' />} for storage and caching.
             </li>
             <li>
               Implemented real-time RFQ trading for users in async {<Badge name='Rust' />} with integrations to multiple CEX and DEX APIs via WebSocket and REST.
@@ -34,8 +34,8 @@ const ResumeContent = () => (
         <SubSection title="Fixed-term & Contracting Software Engineer">
           <SubSubSection leftSub="Viapontica AI" rightSub="Summer 2020">
             <li> Worked with the UK Government to develop software to recognise incidents in public. </li>
-            {/* <li> Designed and deployed scalable and optimised {<Badge name='Flask' />} server in {<Badge name='Python' />} on {<Badge name='AWS' />}.</li> */}
-            <li> Designed and deployed a scalable {<Badge name='Flask' />} server in {<Badge name='Python' />} on {<Badge name='AWS' />}, utilising caching and compound indexing to <u>reduce end-to-end latency benchmark latency by 32-72%.</u></li>
+            {/* <li> Designed and deployed scalable and optimised {<Badge name='Flask' />} server in {<Badge name='Python' />} on AWS.</li> */}
+            <li> Designed and deployed a scalable {<Badge name='Flask' />} server in {<Badge name='Python' />} on AWS, utilising caching and compound indexing to <u>reduce end-to-end latency benchmark latency by 32-72%.</u></li>
             {/* <li> Implemented <u>all endpoints to guarantee a <a style={{ fontStyle: 'italic' }}>O(n)</a> running time</u> while also considering the scalability. </li> */}
           </SubSubSection>
           <SubSubSection leftSub="SymbaSync Ltd" rightSub="Summer 2019">

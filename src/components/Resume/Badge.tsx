@@ -7,7 +7,6 @@ const NAME_MAP: {
   'google cloud': 'googlecloud',
   'github actions': 'githubactions',
   'node': 'node.js',
-  'aws': 'amazonwebservices'
 }
 
 
