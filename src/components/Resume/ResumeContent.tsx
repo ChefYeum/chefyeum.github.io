@@ -10,14 +10,11 @@ const ResumeContent = () => (
   <>
     <div>
       <Section title="Experience">
-        <SubSection title="Full-stack Software Engineer">
+        <SubSection title="Software Engineer">
           <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
-            <li>
-              Built a crypto conversion feature end-to-end, spanning a {<Badge name='React' />} in {<Badge name='TypeScript' />} frontend and an async {<Badge name='Rust' />} backend, with {<Badge name='PostgreSQL' />} and {<Badge name='Redis' />} for storage and caching.
-            </li>
-            <li>
-              Implemented real-time RFQ trading for users in async {<Badge name='Rust' />} with integrations to multiple CEX and DEX APIs via WebSocket and REST.
-            </li>
+            <li> Designed and implemented a crypto conversion feature in the crypto payment platform, architecting {<Badge name='Rust' />} backend with {<Badge name='PostgreSQL' />} and {<Badge name='Redis' />} for storage and caching</li>
+            <li> Implemented real-time RFQ trading for users in async {<Badge name='Rust' />} with integrations to multiple CEX and DEX APIs via WebSocket. </li>
+            <li> A seamless UX through a custom hook in {<Badge name='React' />} + {<Badge name='TypeScript' />} frontend.  </li>
           </SubSubSection>
         </SubSection>
         <SubSection title="Quantitative Developer">
