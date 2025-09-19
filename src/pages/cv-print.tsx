@@ -15,7 +15,7 @@ export default () => (
     <ResumeLogoBar /> 
 
     <div css={{marginTop: '.3em'}}>
-      Software engineering generalist with 2 years' experience in finance and an academic background in Programming Language. Currently interested in Rust, DSL design, cryptocurrency trading, WebAssembly, and recently DeFi.
+      Software engineering generalist with 3 years' experience in finance and an academic background in Programming Language. Currently interested in Rust, DSL design, cryptocurrency trading, WebAssembly, and recently DeFi.
     </div>
 
     <div css={{
