@@ -11,22 +11,22 @@ const ResumeContent = () => (
     <div>
       <Section title="Experience">
         <SubSection title="Software Engineer">
-          <SubSubSection leftSub="Radom Pay" rightSub="Feb 2025 - Present">
-            <li>Launched crypto conversion feature <u>enabling $500K+ in daily payments</u>, typically into stablecoins.</li>
-            <li>Architected backend with asynchronous <Badge name='Rust' />, <Badge name='PostgreSQL' />, and <Badge name='Redis' /> for high-performance processing and caching.</li>
-            <li>Synthesized real-time RFQs from multiple CEX/DEX APIs via WebSocket, acting as market maker to deliver competitive pricing and <u>profit margin of 0.3-2% per trade amount.</u></li>
-            <li>Built seamless UX with custom hooks in {<Badge name='React' />} + {<Badge name='TypeScript' />} frontend.</li>
+          <SubSubSection leftSub="Smarkets" rightSub="Nov 2025 - Present">
+            <li> Working on internal & external trading engine in prediction markets using {<Badge name='Distributed Systems' />} and {<Badge name='Rust' />}.</li>
+          </SubSubSection>
+        </SubSection>
+        <SubSection title="Personal Goal Pursuit">
+          <SubSubSection leftSub="Gardening Leave & Startup" rightSub="Dec 2024 - Nov 2025">
+            <li> 12-month gardening leave during a contractual non-compete. Worked on a crypto payment startup with a real-time crypto trading feature for exchange-executable orders via RFQ using asynchronous {<Badge name='Rust' />}, {<Badge name='PostgreSQL' />}, {<Badge name='Redis' />}, {<Badge name='React' />}, and {<Badge name='TypeScript' />}.</li>
+            <li> Over the break, achieved: 🏆 1st place – Bangkok Bachata J&J Championship, 🌴 Finisher – Vietnam Jungle Marathon, 🇰🇷 Finisher – JTBC Seoul Marathon.</li>
           </SubSubSection>
         </SubSection>
         <SubSection title="Quantitative Developer">
-          <SubSubSection leftSub="Queueco" rightSub="Summer 2022 & July 2023 - Dec 2024">
+          <SubSubSection leftSub="Queueco" rightSub="Jul 2023 - Dec 2024">
             <li> Developed a high-frequency trading engine for cryptocurrency market making in <Badge name='Java' /></li>
             <li> Solely built and maintained a trading engine management console in {<Badge name='Next.JS' />}, {<Badge name='React' />}, and {<Badge name='TailwindCSS' />} collaborating with traders to deliver PnL-enhancing features.</li>
             <li> Provided high performance connectivity in Java to 30+ exchanges with proprietary HTTP/WebSocket clients and parser. </li>
             <li> Integrated binary-encoded market data to deliver a low latency trading engine in a colocated trading machine</li>
-            {/* , <u>allowing researchers and traders to manage hundreds of engines in a centralised system and UI.</u></li> */}
-            {/* <li> Adopted a responsive design with {<Badge name='TailwindCSS' />} <u>allowing the traders to control trading engines on mobile devices remotely.</u></li> */}
-            {/* <li> End-to-end and component testing using {<Badge name='cypress' />} and its CI/CD integration on {<Badge name='jenkins' />}. </li> */}
           </SubSubSection>
         </SubSection>
         <SubSection title="Fixed-term & Contracting Software Engineer">
@@ -109,7 +109,7 @@ const ResumeContent = () => (
           fontSize: '90%'
         }}>
           <SubSection title="Personal Website">
-            Personal website with CV and blog. Powered by {<Badge name='Gatsby' />} with {<Badge name='React' />} and {<Badge name='GraphQL' />}.
+            Personal website with CV and blog. Powered by {<Badge name='Vite' />} with {<Badge name='React' />} and {<Badge name='TypeScript' />}.
             Supports a custom markup language written in {<Badge name='Rust' />} which is compiled on the client-side by {<Badge name='WebAssembly' />}.
           </SubSection>
           <SubSection
