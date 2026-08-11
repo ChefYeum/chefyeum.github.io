@@ -1,19 +1,19 @@
 {
   "name": "chefyeum.github.io",
+  "type": "module",
   "version": "1.0.0",
   "private": true,
   "description": "chefyeum.github.io",
   "author": "ChefYeum",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop -p 1234",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "dev": "vite",
+    "develop": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview",
+    "serve": "vite preview",
     "typecheck": "tsc --noEmit",
-    "encrypt": "chefyeum-contents",
-    "deploy": "gatsby clean && (command -v chefyeum-contents && chefyeum-contents || true) && gatsby build && gh-pages -d public -b static",
-    "live-url": "echo https://chefyeum.github.io/blog/?iv=$(yq -r .init_vector .keydata.yaml)"
+    "deploy": "npm run build && gh-pages -d dist -b static"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -21,31 +21,18 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "chefyeum-contents": "file:../chefyeum-contents",
-    "gatsby": "^5.13.0",
-    "gatsby-plugin-emotion": "^8.12.0",
-    "gatsby-plugin-google-analytics": "^5.0.0",
-    "gatsby-plugin-image": "^3.0.0",
-    "gatsby-plugin-manifest": "^5.0.0",
-    "gatsby-plugin-sharp": "^5.0.0",
-    "gatsby-plugin-sitemap": "^6.0.0",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-remark": "^6.13.1",
-    "gatsby-transformer-sharp": "^5.0.0",
+    "marked": "^15.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "unist-util-visit": "^4.1.1"
+    "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
-    "@types/mdx": "^2.0.3",
     "@types/node": "^20.10.4",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^4.2.1",
     "gh-pages": "^6.1.0",
-    "typescript": "^5.3.3"
-  },
-  "optionalDependencies": {
-    "@parcel/watcher-linux-x64-glibc": "^2.4.1"
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
   }
 }

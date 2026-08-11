@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Link } from 'gatsby'
+import { Link } from 'react-router-dom'
 
 
 const NavButton = ({buttonText, buttonLink}: {buttonText: string, buttonLink: string}) => (

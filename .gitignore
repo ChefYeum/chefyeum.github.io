@@ -1,6 +1,7 @@
 node_modules/
 .cache/
 public
+dist/
 src/gatsby-types.d.ts
 
 # Encryption key for Web Crypto API
